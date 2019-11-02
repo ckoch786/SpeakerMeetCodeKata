@@ -30,6 +30,8 @@ namespace SpeakerMeet.API.Controllers
             {
                 return new OkObjectResult(result);
             }
+            // books solution!
+            //result = Speakers.Where(x => x.Name.StartsWith(searchString, StringComparison.OrdinalIgnoreCase)).ToList();
 
             result = SearchForAnyMatch(searchString);
 
