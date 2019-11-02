@@ -14,4 +14,8 @@
     <PackageReference Include="Xunit.SkippableFact" Version="1.3.12" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\SpeakerMeet.API\SpeakerMeet.API.csproj" />
+  </ItemGroup>
+
 </Project>
