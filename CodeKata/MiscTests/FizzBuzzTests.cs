@@ -1,7 +1,7 @@
 using System;
 using Xunit;
 
-namespace CodeKata
+namespace CodeKata.MiscTests
 {
     public class FizzBuzzTests
     {

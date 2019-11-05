@@ -32,6 +32,7 @@ namespace SpeakerMeet.API.Controllers
             }
             // books solution!
             //result = Speakers.Where(x => x.Name.StartsWith(searchString, StringComparison.OrdinalIgnoreCase)).ToList();
+            //https://github.com/Microsoft/referencesource/blob/master/mscorlib/system/string.cs
 
             result = SearchForAnyMatch(searchString);
 
